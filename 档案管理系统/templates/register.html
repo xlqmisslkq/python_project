@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="../static/css/register.css"/>
+
+
+</head>
+
+<html lang="en">
+
+    <body>
+        <div class="mainpage">
+            <div class="kuang">
+                <form name="frm" action="" method="post">
+                    <h2>用户注册</h2>
+                    <div>
+                        <span>用 户 名</span>
+                        <input type="text" class="text" name="user" placeholder="请输入用户名">
+                    </div>
+
+                    <div>
+                        <span>密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码</span>
+                        <input type="password" class="text" name="pwd" placeholder="请输入密码">
+                    </div>
+
+                    <div>
+                        <span>确认密码</span>
+                        <input type="password" class="text" name="pwd_confirm" placeholder="请再次输入密码">
+                    </div>
+                    
+                    <div>
+                        <input type="submit" class="sub"  value="注册">
+                    </div>
+                    
+                    <div>
+                        <a href="{{ url_for('login') }}">
+                        <input class="sub" type="buttom" value="返回登陆" /></a>
+                    </div>
+    
+                    <div>{{msg}}</div>
+                </form>
+            </div>
+        </div>
+     
+    </body>
+    
+    
+
+
+
+</html>

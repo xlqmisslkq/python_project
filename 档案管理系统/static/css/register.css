@@ -1,0 +1,75 @@
+.mainpage {
+    padding: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+.kuang {
+    width: 350px;
+    height: 300px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+ 
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+}
+ 
+form {
+    height: 100%;
+ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+h2 {
+    font-size: 40px;
+}
+ 
+span {
+	font-size: 20px;
+    display: inline-block; 
+    width: 90px;
+    
+    text-align: center;
+}
+ 
+.sub {
+    width: 260px;
+    height: 40px;
+ 
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 25px;
+
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    font-size: 15px;
+
+
+}
+
+.sub:hover {
+    /* 鼠标悬停时的效果，根据需要添加  */
+   text-decoration: underline;
+}
+ 
+.text {
+    width: 165px;
+    height: 25px;
+    padding-left: 10px;
+ 
+    border-radius: 5px;
+    border: none;
+    text-align: justify;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    box-sizing: border-box;
+}
